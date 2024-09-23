@@ -1,0 +1,67 @@
+.wrapper {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto 40px auto;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 15px 0;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: -5px 10px 30px black;
+}
+
+.profileInfoWrapper {
+  padding: 15px;
+}
+.img {
+  width: 350px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-color: rgb(45, 45, 45);
+}
+.userName {
+  font-weight: 700;
+  font-size: large;
+  color: black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.tag {
+  margin-bottom: 5px;
+}
+.tag,
+.location {
+  color: grey;
+}
+.statsList {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.statsList {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0 20px;
+  padding-left: 0;
+  border-radius: 20px;
+  column-gap: 1px;
+}
+.statsItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(211, 211, 211);
+}
+.statsItem:first-child,
+.statsItem:last-child {
+  border-left: none;
+  border-right: none;
+}
+.statsName {
+  font-weight: 700;
+  font-size: large;
+}

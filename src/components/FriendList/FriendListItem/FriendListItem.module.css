@@ -1,0 +1,22 @@
+.wrapper {
+  justify-content: center;
+}
+.image {
+  height: 100px;
+  width: 100%;
+  object-fit: contain;
+}
+.name {
+  font-size: 28px;
+  font-weight: 700;
+}
+.status {
+  font-size: 20px;
+  font-weight: 400;
+}
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}
